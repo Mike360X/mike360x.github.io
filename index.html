@@ -122,7 +122,9 @@
 
             requestAnimationFrame(gameLoop);
         }
-
+var mygunsound = new audio("bang.mp3");
+<div id="gameframe oneclick="mygunsound.play()"> 
+    
         canvas.addEventListener('touchmove', (e) => {
             e.preventDefault();
             const touch = e.touches[0];
